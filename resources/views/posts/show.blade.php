@@ -13,7 +13,7 @@
         <div class="col-md-4">
             <div class="well">
                 <dl class="dl-horizontal">
-                    <dt>Create At:</dt>
+                    <dt>Created At:</dt>
                     <dd>{{ date("M j, Y h:i a", strtotime($post->created_at)) }}</dd>
                 </dl>
 
