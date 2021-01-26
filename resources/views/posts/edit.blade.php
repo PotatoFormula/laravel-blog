@@ -5,9 +5,14 @@
 @section('content')
 
     <div class="row">
+        {!! Form::model($post, ['route' => ['posts.update', $post->id]]) !!}
+
         <div class="col-md-8">
-            <h1>{{ $post->title }}</h1>
-            <p class="lead">{{ $post->body }}</p>
+            {{ Form::label('title', 'Title:') }}
+            {{ Form::text('title', null, ['class' => 'form-control input-lg']) }}
+
+            {{ Form::label('body', 'Body:', ['class' => 'form-spacing-top']) }}
+            {{ Form::textarea('body', null, ['class' => 'form-control']) }}
         </div>
 
         <div class="col-md-4">
@@ -35,6 +40,8 @@
                 <div> 
             </div>
         </div>
-    </div>
+
+        {!! Form::close() !!}
+    </div> <!-- end of .row (form) -->
 
 @endsection
