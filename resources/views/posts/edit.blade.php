@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="col-sm-6">
-                        {!! Html::linkRoute('posts.update', 'Save', array($post->id), array('class' => 'btn btn-primary btn-block')) !!}
+                        {!! Html::linkRoute('posts.update', 'Save', array($post->id), array('class' => 'btn btn-success btn-block')) !!}
                     </div>
                 <div> 
             </div>
