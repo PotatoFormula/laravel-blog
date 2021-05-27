@@ -42,7 +42,7 @@
                     </div>
                 <div> 
                 <div class="row">
-                    <div class="col-md-12 h1-center">
+                    <div class="col-sm-10 col-sm-offset-1">
                         {{ Html::linkRoute('posts.index', '<< See All Posts', [], ['class' => 'btn btn-default btn-block btn-h1-spacing']) }}
                     </div>
                 </div>
