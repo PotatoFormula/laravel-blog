@@ -7,7 +7,7 @@
           <div class="jumbotron">
             <h1>Welcome to My Blog!</h1>
             <p class="lead">Thank you so much for visiting. This is my test website built with Laravel. Please read my popular post!</p>
-            <p><a class="btn btn-primary btn-lg" href="{{ route('posts.index') }}" role="button">Popular Post</a></p>
+            <p><a class="btn btn-primary btn-lg" href="{{ route('blog.index') }}" role="button">Popular Post</a></p>
           </div>
         </div>
       </div>
